@@ -1,0 +1,26 @@
+{
+    "name": "asif160627/laravel-zkteco-integrate",
+    "description": "Integrate ZKTeco Access Control and Door Lock System with Laravel Project.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asif160627\\ZktecoAccessControl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asif",
+            "email": "asif@pust.ac.bd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asif160627\\ZktecoAccessControl\\AccessControlServiceProvider"
+            ]
+        }
+    }
+}
