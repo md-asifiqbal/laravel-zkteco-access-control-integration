@@ -2,6 +2,9 @@
 
 This package provides an easy way to manage ZKTeco access control devices in Laravel.
 
+## Documentation
+You can find the API documentation for this package from ZKTeco Service Provider. 
+
 ## Installation
 
 You can install the package via composer:
