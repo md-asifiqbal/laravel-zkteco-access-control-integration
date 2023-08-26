@@ -17,7 +17,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/iclock/api/terminals/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page ?? 1,
                 'page_size' => $page ?? 10,
                 'sn' => $sn,
@@ -26,7 +26,7 @@ class AccessControlService implements AccessServiceInterface
                 'area' => $area,
                 'sn_icontains' => $sn_icontains,
                 'alias_icontains' => $alias_icontains,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -208,7 +208,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/iclock/api/transactions/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'emp_code' => $emp_code,
@@ -216,7 +216,7 @@ class AccessControlService implements AccessServiceInterface
                 'terminal_alias' => $terminal_alias,
                 'start_time' => $start_time,
                 'end_time' => $end_time,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -257,7 +257,7 @@ class AccessControlService implements AccessServiceInterface
     {
         $url = $this->getConfig('url') . '/iclock/api/transactions/export/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'export_type' => $export_type,
                 'page' => $page,
                 'page_size' => $page_size,
@@ -266,7 +266,7 @@ class AccessControlService implements AccessServiceInterface
                 'terminal_alias' => $terminal_alias,
                 'start_time' => $start_time,
                 'end_time' => $end_time,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -281,14 +281,14 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/att/api/transactionReport/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'start_date' => $start_date,
                 'end_date' => $end_date,
                 'departments' => $departments,
                 'areas' => $areas,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -303,7 +303,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/personnel/api/areas/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'area_code' => $area_code,
@@ -311,7 +311,7 @@ class AccessControlService implements AccessServiceInterface
                 'area_code_icontains' => $area_code_icontains,
                 'area_name_icontains' => $area_name_icontains,
                 'ordering' => $ordering,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -393,7 +393,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/personnel/api/departments/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'dept_code' => $dept_code,
@@ -401,7 +401,7 @@ class AccessControlService implements AccessServiceInterface
                 'dept_code_icontains' => $dept_code_icontains,
                 'dept_name_icontains' => $dept_name_icontains,
                 'ordering' => $ordering,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -483,7 +483,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/personnel/api/positions/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'position_code' => $position_code,
@@ -491,7 +491,7 @@ class AccessControlService implements AccessServiceInterface
                 'position_code_icontains' => $position_code_icontains,
                 'position_name_icontains' => $position_name_icontains,
                 'ordering' => $ordering,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -573,7 +573,7 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/personnel/api/employees/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'emp_code' => $emp_code,
@@ -584,7 +584,7 @@ class AccessControlService implements AccessServiceInterface
                 'last_name_icontains' => $last_name_icontains,
                 'department' => $department,
                 'areas' => $areas,
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
@@ -770,13 +770,13 @@ class AccessControlService implements AccessServiceInterface
 
         $url = $this->getConfig('url') . '/personnel/api/resigns/';
         try {
-            $response = Http::withHeaders($this->headers)->withUrlParameters([
+            $response = Http::withHeaders($this->headers)->get($url, [
                 'page' => $page,
                 'page_size' => $page_size,
                 'employee' => $employee,
                 'resign_type' => $resign_type,
                 'resign_date' => $resign_date
-            ])->get($url)->json();
+            ])->json();
 
             return $response;
         } catch (\Exception $e) {
