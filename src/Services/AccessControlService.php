@@ -30,7 +30,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -44,7 +44,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -65,7 +65,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -86,7 +86,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -100,7 +100,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -116,7 +116,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -132,7 +132,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -148,7 +148,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -164,7 +164,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -180,7 +180,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -196,7 +196,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -220,7 +220,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -233,7 +233,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -247,7 +247,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -270,7 +270,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -292,7 +292,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -315,7 +315,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -329,7 +329,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -348,7 +348,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -367,7 +367,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -382,7 +382,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -405,7 +405,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -419,7 +419,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -438,7 +438,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -457,7 +457,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -472,7 +472,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -495,7 +495,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -509,7 +509,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -528,7 +528,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -547,7 +547,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -562,7 +562,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -588,7 +588,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -602,7 +602,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -629,7 +629,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -656,7 +656,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -670,7 +670,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -687,7 +687,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -704,7 +704,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -723,7 +723,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -743,7 +743,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -759,7 +759,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -780,7 +780,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -795,7 +795,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -815,7 +815,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -835,7 +835,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -849,7 +849,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 
@@ -865,7 +865,7 @@ class AccessControlService implements AccessServiceInterface
 
             return $response;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 }
