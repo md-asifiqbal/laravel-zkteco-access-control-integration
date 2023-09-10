@@ -68,7 +68,7 @@ trait Connection
             ])->post($url, $data)->json();
             return $response['token'] ?? null;
         } catch (\Exception $e) {
-            throw $e->getMessage();
+            throw $e;
         }
     }
 }
